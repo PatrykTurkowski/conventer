@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konwersja ICS do CSV i usuwanie przeszłych wydarzeń</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+
+</head>
+
+<body>
+    <h3>Konwerter ICS na CSV</h3>
+    <p>
+        Przydatne linki:
+        <a href="https://calendar.google.com/">Kalendarz</a>
+        <a href="https://www.google.com/maps/d/">Mapy google</a>
+
+    </p>
+    <a href="poradnik.html">Jak mam To Zrobić?</a>
+    <input type="file" id="fileInput" accept=".ics">
+    <button onclick="processICS()">Przetwórz plik</button>
+    <a id="downloadLink" href="#" download="output.csv">Pobierz plik CSV</a>
+
+</body>
+
+</html>
